@@ -366,6 +366,7 @@ Having Count(*)>1
 
 65. reverse the ddmmyyyy into yyyymmdd in sql and powerbi.
 66. Difference between treat as and filter dax functions ?
+
 - TREATAS and FILTER are both DAX functions used for filtering data, but they serve different purposes and have distinct use cases:
 - TREATAS Function:
 - Purpose: TREATAS is used to establish a virtual relationship between tables by applying a filter context from one table to another, even when no physical relationship exists between them in the data model.
@@ -379,11 +380,11 @@ Having Count(*)>1
 - Example: If you have a Sales table and you want to filter it to include only rows where the sales amount is greater than 1000, you would use the FILTER function.
 - In summary, the key difference between the two functions is that TREATAS is primarily used to establish temporary relationships between tables, whereas FILTER is used to filter rows within a single table. Your choice between them depends on the specific data modeling or analysis scenario you are working on.
 
-
 67. Performance tunning in powerbi?
+
 - Performance tuning in Power BI is crucial to ensure that your reports and dashboards load and respond quickly, providing a smooth user experience. Here are some tips for optimizing the performance of your Power BI reports:
 
-1. **Data Model Optimization**:
+68. **Data Model Optimization**:
 - **Data Loading**: Limit the data loaded into your Power BI model. Only load the data that is necessary for your analysis.
 - **Data Transformation**: Optimize data transformation steps in Power Query to reduce data size.
 - **Data Type Selection**: Choose appropriate data types for your columns to reduce memory usage.
