@@ -448,7 +448,52 @@ Having Count(*)>1
 # Part 2
 1. Explain about field parameters and calculation groups
 - https://www.sqlbi.com/articles/using-field-parameters-and-calculation-groups-for-conditional-formatting/
-2. 
+2. What is data manipulation techniques ?
+   Data Manipulation Techniques
+
+   Data manipulation is the process of transforming, cleaning, reorganizing, and restructuring raw data into a more usable and meaningful format. It's a crucial step in 
+   data analysis, as it prepares the data for further analysis, reporting, or visualization.
+   Key Data Manipulation Techniques
+   Data Cleaning:
+   Handling Missing Values:
+   Deletion: Removing rows or columns with missing values.
+   Imputation: Filling missing values with estimated values (mean, median, mode, or predictive models).
+   Outlier Detection and Treatment:
+   Identifying anomalies using statistical methods (e.g., Z-score, IQR).
+   Handling outliers: Removing, capping, or winsorizing.
+   Data Formatting and Standardization:
+   Ensuring consistency in data formats (e.g., date, currency).
+   Standardizing units of measurement.
+   Data Transformation:
+
+   Aggregation: Combining multiple data points into a single summary value (e.g., sum, average, count).
+   Normalization: Scaling numerical values to a common range (e.g., min-max scaling, Z-score normalization).
+   Discretization: Converting continuous numerical data into discrete categories (e.g., binning).
+   Feature Engineering: Creating new features from existing ones (e.g., combining variables, calculating ratios).
+   Data Integration:
+
+   Joining Data Sources: Combining data from multiple sources based on common keys (e.g., inner join, outer join).
+   Merging Data: Appending data from different sources into a single dataset.
+   Data Reshaping:
+   Pivoting: Restructuring data by converting rows into columns or vice versa.
+   Melting: Unpivoting data by converting columns into rows.
+   Tools for Data Manipulation
+
+   Programming Languages: Python (Pandas, NumPy), R
+   SQL: For database operations and data extraction.
+   Spreadsheets: Excel, Google Sheets
+   Data Analysis Tools: Tableau, Power BI, SPSS
+   Example Use Cases
+
+   E-commerce: Analyzing customer purchase history to identify trends and make personalized recommendations.
+   Healthcare: Identifying disease patterns and optimizing treatment plans.
+   Finance: Predicting stock market trends and managing risk.
+   Marketing: Analyzing customer behavior to target specific segments.
+   By mastering these techniques, data analysts and scientists can unlock valuable insights from complex datasets, enabling data-driven decision-making.
+3. Aggregated functions
+  -https://learn.microsoft.com/en-us/dax/aggregation-functions-dax
+4. Rank and Dense Rank in DAX
+  -https://learn.microsoft.com/en-us/dax/rank-function-dax
 
 
 
