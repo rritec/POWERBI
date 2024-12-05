@@ -365,8 +365,9 @@ Having Count(*)>1
 
 
 65. reverse the ddmmyyyy into yyyymmdd in sql and powerbi.
-66. Difference between treat as and filter dax functions ?
-
+    
+67. Difference between treat as and filter dax functions?
+    
 - TREATAS and FILTER are both DAX functions used for filtering data, but they serve different purposes and have distinct use cases:
 - TREATAS Function:
 - Purpose: TREATAS is used to establish a virtual relationship between tables by applying a filter context from one table to another, even when no physical relationship exists between them in the data model.
@@ -380,11 +381,11 @@ Having Count(*)>1
 - Example: If you have a Sales table and you want to filter it to include only rows where the sales amount is greater than 1000, you would use the FILTER function.
 - In summary, the key difference between the two functions is that TREATAS is primarily used to establish temporary relationships between tables, whereas FILTER is used to filter rows within a single table. Your choice between them depends on the specific data modeling or analysis scenario you are working on.
 
-67. Performance tunning in powerbi?
+68. Performance tunning in powerbi? 
 
 - Performance tuning in Power BI is crucial to ensure that your reports and dashboards load and respond quickly, providing a smooth user experience. Here are some tips for optimizing the performance of your Power BI reports:
 
-68. **Data Model Optimization**:
+69. **Data Model Optimization**:
 
 - **Data Loading**: Limit the data loaded into your Power BI model. Only load the data that is necessary for your analysis.
 - **Data Transformation**: Optimize data transformation steps in Power Query to reduce data size.
@@ -392,13 +393,13 @@ Having Count(*)>1
 - **Remove Unnecessary Columns**: Remove columns you don't need for analysis to reduce data size.
 - **Data Compression**: Enable data compression when possible to reduce memory footprint.
 
-2. **Data Modeling**:
+- **Data Modeling**:
 
 - **Star Schema**: Use a star schema for your data model, with a central fact table and dimension tables. This can improve query performance.
 - **Relationships**: Define relationships between tables efficiently. Use one-to-many relationships when appropriate.
 - **Bi-Directional Filtering**: Use bi-directional filtering with caution, as it can affect performance.
 
-3. **DAX Optimization**:
+- **DAX Optimization**:
 
 - **Measure Optimization**: Write efficient DAX measures. Avoid using complex DAX functions that slow down performance.
 - **Row-Level Security**: If you use Row-Level Security, make sure it's optimized to avoid excessive data filtering.
