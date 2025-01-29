@@ -8,7 +8,7 @@
 	'Sales',
 	'Product'[Category],	
 	"Total Amount",sum(Sales[Sales Amount]))
-```
+        ```
 
 
 2. 
