@@ -4,11 +4,11 @@
     - Syntax: SUMMARIZE ( <Table> [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] )
     - Example:
       ```dax
-      SUMMARIZE(
+SUMMARIZE(
 	'Sales',
 	'Product'[Category],	
 	"Total Amount",sum(Sales[Sales Amount]))
-        ```
+      ```
 
 
 2. 
