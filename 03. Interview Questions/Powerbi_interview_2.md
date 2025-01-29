@@ -3,7 +3,7 @@
     - Creates a summary of the input table grouped by the specified columns.
     - Syntax: SUMMARIZE ( <Table> [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] )
     - Example:
-      ``` dax
+      ```dax
       SUMMARIZE(
 	'Sales',
 	'Product'[Category],	
