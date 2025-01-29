@@ -3,11 +3,12 @@
     - Creates a summary of the input table grouped by the specified columns.
     - Syntax: SUMMARIZE ( <Table> [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] )
     - Example:
-      ``` sql
+      ``` dax
       SUMMARIZE(
-	'Sales',
-	'Product'[Category],	
-	"Total Amount",sum(Sales[Sales Amount]))
+      'Sales',
+      'Product'[Category],
+      "Total Amount",sum(Sales[Sales Amount])
+      )
       ```
 
 
