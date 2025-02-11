@@ -56,7 +56,7 @@
 
 ## Exercise 3: Using Variables to improve performance
 - Any calculation, we are using twice or more better to store the calculation result in variable and use the variable where ever needed.
-- Open [Adventure Works DW 2020 M02](https://github.com/rritec/powerbi/raw/master/Labdata/Adventure%20Works%20DW%202020%20M02.pbix) file
+- Open [Adventure Works DW 2020 M02](https://github.com/rritec/POWERBI/blob/master/02.%20Labdata/Adventure%20Works%20DW%202020%20M02.pbix) file
 - Observe Calculation inside **Sales** table **Revenue YoY %**
 - The last year sales, calculating two times right .
 - Develop one mesure with the name of **Revenue YOY % using Var** with below formula
